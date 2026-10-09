@@ -1,0 +1,26 @@
+@model MicroBlog.Models.Post
+
+<div class="blog-post">
+    <h2>
+        <a asp-page="/Details" asp-route-id="@Model.Id">
+            @Model.Title
+        </a>
+    </h2>
+
+```
+<div class="author">
+    By @Model.Author
+</div>
+
+<div class="content">
+    @Model.Content
+</div>
+
+<p>
+    <a asp-page="/Details" asp-route-id="@Model.Id">
+        Read Full Post
+    </a>
+</p>
+```
+
+</div>

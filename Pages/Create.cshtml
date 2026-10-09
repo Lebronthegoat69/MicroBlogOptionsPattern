@@ -1,0 +1,29 @@
+@page
+@model CreateModel
+@{
+    ViewData["Title"] = "Create Post";
+}
+
+<div class="blog-container">
+    <h1>Create a New Post</h1>
+
+    <form method="post">
+        <div class="mb-3">
+            <label asp-for="Post.Title" class="form-label">Title</label>
+            <input asp-for="Post.Title" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Post.Author" class="form-label">Author</label>
+            <input asp-for="Post.Author" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Post.Content" class="form-label">Content</label>
+            <textarea asp-for="Post.Content" class="form-control" rows="5"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Create Post</button>
+        <a asp-page="/Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

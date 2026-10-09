@@ -1,0 +1,15 @@
+﻿@page
+@model MicroBlog.Pages.IndexModel
+@{
+    ViewData["Title"] = "MicroBlog";
+}
+
+<div class="blog-container">
+    <h1>MicroBlog</h1>
+    <p>Welcome to my blog!</p>
+
+    @foreach (var post in Model.Posts)
+    {
+        <partial name="_PostCard" model="post" />
+    }
+</div>
