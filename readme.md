@@ -80,3 +80,5 @@ The Production environment disables the comment form.
 6. Use the Production environment to see comments disabled.
 
 Sam
+<img width="479" height="433" alt="image" src="https://github.com/user-attachments/assets/d72e24e3-e296-490b-8750-3c0ba9916894" />
+<img width="455" height="431" alt="image" src="https://github.com/user-attachments/assets/a87258c0-7f6b-4d35-b545-752bf17da243" />
